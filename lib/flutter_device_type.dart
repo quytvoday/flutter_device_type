@@ -30,7 +30,7 @@ class Device{
       isTablet = true;
       isPhone = false;
     }
-    else if(devicePixelRatio == 2 && (width >= 1920 || height >= 1920)) {
+    else if(devicePixelRatio == 2 && (width >= 1920 || height >= 1824)) {
       isTablet = true;
       isPhone = false;
     }
