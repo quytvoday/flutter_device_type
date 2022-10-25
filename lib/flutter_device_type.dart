@@ -34,6 +34,10 @@ class Device{
       isTablet = true;
       isPhone = false;
     }
+    else if(devicePixelRatio == 2.125 && (width >= 1600 || height >= 2458)) {
+      isTablet = true;
+      isPhone = false;
+    }
     else {
       isTablet = false;
       isPhone = true;
